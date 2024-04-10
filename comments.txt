@@ -1,0 +1,6 @@
+Upgraded to dotnet 8.0
+Removed newsoft
+removed redundant annotations (camelCase is default for Json Text) 
+Listing apis should be paginated
+Use datetime offset instead of datetime
+Should mapping happen in controller or service. I choose controller as it allows for better types if controller i used by another controller.
